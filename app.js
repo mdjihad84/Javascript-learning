@@ -1,17 +1,17 @@
-                /*
-                * 1. what is js?
-                * 2. declare korba variables.
-                * 3. output dekhaiba variables.
-                * 4.ki ki data type ache ar kondar ki kaj eidao leikka aynno
-                */
+                  /*
+                  * 1. what is js?
+                  * 2. declare korba variables.
+                  * 3. output dekhaiba variables.
+                  * 4.ki ki data type ache ar kondar ki kaj eidao leikka aynno.
+                  */
 
                                     // What is javascript
 
-              /*
-                *.1 JavaScript is a scripting language that enables you to create dynamically 
-                * updating content, control multimedia, animate images, and pretty much 
-                * everything else. 
-              */           
+                /*
+                  *.1 JavaScript is a scripting language that enables you to create dynamically 
+                  * updating content, control multimedia, animate images, and pretty much 
+                  * everything else. 
+                */           
         
         
         
@@ -83,7 +83,6 @@
 
                     
 
-
                         
                                                   // javascript data type
                     3. /*
@@ -103,18 +102,28 @@
                     let firstName = 'jihad';
                     console.log(typeof firstName);
 
+                    let fullName = 'MD JAHIDUL ISLAM JIHAD';
+                    console.log(fullName);
+
                      
                                           // number  
                 
                     let number = 160;
                     console.log(typeof number);
 
+                    let l = 80;
+                    let k = 35;
+                    let match = l + k;
+                    console.log(match);
+
 
                                         // boolean
 
                     let ifAdult = true;
+                    let ifAdult1 = false;
 
                     console.log(typeof ifAdult);
+                    console.log(ifAdult1);
                     console.log(ifAdult);
 
 
