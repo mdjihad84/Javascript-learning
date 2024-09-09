@@ -31,8 +31,6 @@
                                                     ? Var Variable         
                     * You can re declare
                     * You can re assaign
-                    * Global Scooped
-                    * var is hosted
                     */
                     // var: The old way, not recommended for modern JavaScript.
 
@@ -41,50 +39,51 @@
 
                     var a = 25;
                     var b = 45;
-                    var sum = a + b;
-                    console.log(sum);
+                    var calculation = a + b;
+                    console.log(calculation);
 
                     var p = 120;
                     var q = 20;
-                    var sum = p - q;
-                    console.log(sum);
+                    var calculation = p - q;
+                    console.log(calculation);
 
                     var p = 80;
                     var q = 30;
-                    var sum = p * q;
-                    console.log(sum);
+                    var calculation = p * q;
+                    console.log(calculation);
                     
                     var p = 150;
                     var q = 10;
-                    var sum = p / q;
-                    console.log(sum); 
+                    var calculation = p / q;
+                    console.log(calculation); 
 
                     
                   /*
                                                     ? let Variable
                     ! You can not re declare
                     * You can re assaign
-                    ? Block Scooped
-                    ! let is not hosted
                   */
+                    
                     
                     let nam = "JIHAD";
                     let greeting = "Happy birthday " + nam;
                     console.log(greeting);
                     
-                    var p = 150;
-                    var q = 10;
-                    var sum = p * q;
-                    console.log(sum); 
+                    let m = 120;
+                    let n = 25
+                    let plus = m + n;
+                    console.log(plus);
                     
                         
                     /*
                                                     ? const Variable
                     ! You can not re declare
                     ! You can not re assaign
-                    ? Block Scooped
-                    ! const is not hosted
                     */
+
+                    
+
+
                         
                                                   // javascript data type
                     3. /*
@@ -98,12 +97,36 @@
                     7. Symbol
                     8. Object
                     */   
-                        
-                    3. /*
-                                                      ? BigInt
-                        
-                     *To create a BigInt, append n to the end of an integer or call BigInt()
-                     * BigInt can not mix with other data types
-                     * A BigInt can not have decimals
-                     */
                      
+                                            //  string
+                   
+                    let firstName = 'jihad';
+                    console.log(typeof firstName);
+
+                     
+                                          // number  
+                
+                    let number = 160;
+                    console.log(typeof number);
+
+
+                                        // boolean
+
+                    let ifAdult = true;
+
+                    console.log(typeof ifAdult);
+                    console.log(ifAdult);
+
+
+                                        // undefined
+
+                    let someInfo;
+                    console.log(typeof someInfo);
+                    console.log(someInfo);
+
+
+                                        // null
+
+                    let someText = null;
+                    console.log(typeof someText);
+                    console.log(someText);
